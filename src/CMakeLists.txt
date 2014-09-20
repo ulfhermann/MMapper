@@ -342,7 +342,7 @@ if (APPLE)
     set(CPACK_OSX_PACKAGE_VERSION 10.5)
 
     # Package Settings
-    set(CPACK_GENERATOR "DragNDrop")
+    set(CPACK_GENERATOR "DragNDrop;ZIP")
     set(CPACK_SOURCE_GENERATOR "TGZ")
 
     # Libraries are bundled directly
