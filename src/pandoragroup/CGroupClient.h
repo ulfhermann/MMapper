@@ -52,7 +52,7 @@ class CGroupClient : public QTcpSocket
     CGroupClient(QByteArray host, int remotePort, QObject *parent);
     virtual ~CGroupClient();
 
-    void setSocket(qintptr socketDescriptor);
+    void setSocket(int socketDescriptor);
 
     int getConnectionState() {return connectionState; }
     void setConnectionState(int val);

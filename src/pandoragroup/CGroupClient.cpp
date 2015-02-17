@@ -58,7 +58,7 @@ CGroupClient::CGroupClient(QObject *parent) :
   linkSignals();
 }
 
-void CGroupClient::setSocket(qintptr socketDescriptor)
+void CGroupClient::setSocket(int socketDescriptor)
 {
   if (setSocketDescriptor(socketDescriptor) == false) {
                 // failure ... what to do?

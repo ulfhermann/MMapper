@@ -53,7 +53,7 @@ class ConnectionListener : public QTcpServer {
     void log(const QString&, const QString&);
 
   protected:
-    void incomingConnection(qintptr socketDescriptor);
+    void incomingConnection(int socketDescriptor);
 
   private:
     Q_OBJECT

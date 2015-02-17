@@ -45,7 +45,7 @@ CGroupServer::~CGroupServer()
 
 }
 
-void CGroupServer::incomingConnection(qintptr socketDescriptor)
+void CGroupServer::incomingConnection(int socketDescriptor)
 {
   getCommunicator()->sendLog("Incoming connection");
         // connect the client straight to the Communicator, as he handles all the state changes

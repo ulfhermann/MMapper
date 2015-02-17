@@ -47,7 +47,7 @@ class CGroupServer: public QTcpServer
     void closeAll();
 
   protected:
-    void incomingConnection(qintptr socketDescriptor);
+    void incomingConnection(int socketDescriptor);
 
   public slots:
     void connectionClosed(CGroupClient *connection);
