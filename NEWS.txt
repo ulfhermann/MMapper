@@ -30,6 +30,7 @@ MMapper 2.3.0 (January 17, 2015)
 =============================
 
 Changes:
+ - Moved source to GitHub (nschimme)
  - Bug fixes and build improvements (kovis)
  - Property window can be resized (kovis)
  - Prompt detection fixes (kalev)
